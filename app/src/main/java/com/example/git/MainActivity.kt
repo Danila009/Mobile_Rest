@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() {
             val url:String = "https://api.openweathermap.org/data/2.5/weather?q=Samara&appid=4c8985af24857262f0a789c070acfe70&units=metric&lang=ru"
 
 
+
             doAsync {
 
                 val apiResponse = URL(url).readText()
